@@ -50,6 +50,10 @@ Round 1 后不要立刻定方向。把结果沉淀为 7–10 张 root problem ca
 
 > 在 ______ 真实场景中，面对 ______ 稳定约束 / 核心矛盾，如何实现 ______ 长期目标？
 
+在 LLM-era 候选中，还必须补充说明：
+
+> 当 LLM / AI systems 改变 ______ 后，这个稳定约束 / 核心矛盾为何变成新的、被放大的、或现在才可系统研究的根问题？
+
 不要把以下东西当成根问题：
 
 - ML subfield
@@ -59,6 +63,39 @@ Round 1 后不要立刻定方向。把结果沉淀为 7–10 张 root problem ca
 - model architecture
 - product feature
 - paper idea
+
+## LLM-era transformation 硬过滤
+
+本轮不是寻找传统 AI for X，也不是寻找“用 LLM 做某个旧任务”的方向，而是寻找 LLM 到来后在真实世界中长出的新根问题。
+
+每个候选必须先回答：
+
+> 这个根问题是否因为 LLM / AI systems 的出现而新出现、被结构性放大，或变得系统可研究？
+
+请具体说明 LLM 改变了什么：
+
+- 知识接口；
+- 数据生产方式；
+- 评估机制；
+- 社会依赖结构；
+- 模型能力分布；
+- 人机协作流程；
+- failure mode；
+- 或公共利益风险。
+
+### 2018 反事实测试
+
+对每个候选必须回答：
+
+> 如果现在回到 2018 年，LLM 尚未成为知识接口 / 评估器 / 内容生产者 / 工作流中介，这个问题是否仍然几乎以同样形式成立？
+
+判断规则：
+
+- **YES / Go candidate**：没有 LLM，这个问题不会以当前形式存在，或不会如此尖锐、可评估、长期重要。
+- **PARTIAL / Hold**：问题本来存在，但 LLM 显著改变了规模、失败模式、社会影响或可研究性。
+- **NO / Downgrade or Kill**：2018 年也基本一样，LLM 只是更强工具或 backbone。即使公益、可执行，也应降级为 legacy ML public-good problem，不得进入 top 3。
+
+注意：这里不是要求所有候选都研究 foundation model 本身。可以研究 LLM 改写后的科学、教育、语言、公共知识、社会信任、评估机制、数据生态等新根问题。但它不能完全偏离 LLM / AI 主赛道。
 
 ## Blue ocean 硬过滤
 
@@ -176,7 +213,16 @@ Round 1 后不要立刻定方向。把结果沉淀为 7–10 张 root problem ca
 - 为什么现在大量博士生没有过度拥挤？
 - 为什么这不是死海？
 
-### 6. 当前 2026 年状态 + verifiable evidence
+### 6. LLM-era transformation check
+
+必须回答：
+
+- LLM / AI systems 具体改变了什么真实结构？
+- 这个问题是否通过 2018 反事实测试？
+- 它是 YES / PARTIAL / NO？
+- 如果是 NO，为什么仍保留；或者为什么应降级 / 淘汰？
+
+### 7. 当前 2026 年状态 + verifiable evidence
 
 给 2–4 条 evidence。每条必须有 URL。
 
@@ -187,7 +233,7 @@ Round 1 后不要立刻定方向。把结果沉淀为 7–10 张 root problem ca
 - 已有 community signal；
 - 尚未被充分回答的真实问题。
 
-### 7. 张老师四性评分
+### 8. 张老师四性评分
 
 请给出 0–5 分并解释：
 
@@ -198,7 +244,7 @@ Round 1 后不要立刻定方向。把结果沉淀为 7–10 张 root problem ca
 
 低于 3 的维度必须说明是否淘汰。
 
-### 8. 初步问题树
+### 9. 初步问题树
 
 画出 3–5 个子问题节点。每个节点必须说明：
 
@@ -206,23 +252,23 @@ Round 1 后不要立刻定方向。把结果沉淀为 7–10 张 root problem ca
 - 它和上一个节点是什么递进关系？
 - 是否可能成为一篇 paper？
 
-### 9. 5 年 forward-looking thesis
+### 10. 5 年 forward-looking thesis
 
 预测到 2031 年，这个根问题为什么会被认为值得押注。
 
 必须说具体演化路径，不要说“会变得重要”。
 
-### 10. 4-paper PhD narrative 骨架
+### 11. 4-paper PhD narrative 骨架
 
 1–2 句话说明 4 篇 paper 整体讲什么故事。  
 必须说明该方向独有的递进逻辑。  
 不要套通用模板。
 
-### 11. 第一篇 3 个月 entry paper
+### 12. 第一篇 3 个月 entry paper
 
 具体到 problem statement + 可能数据 / benchmark + baseline + 最小贡献形式。
 
-### 12. 最大失败模式
+### 13. 最大失败模式
 
 具体到：
 
@@ -233,7 +279,7 @@ Round 1 后不要立刻定方向。把结果沉淀为 7–10 张 root problem ca
 
 不接受“可能不够新颖”“数据问题”“用模拟数据预防”这种 generic 答案。
 
-### 13. 一周快速试错计划
+### 14. 一周快速试错计划
 
 给出一周内可完成的验证动作：
 
@@ -244,7 +290,7 @@ Round 1 后不要立刻定方向。把结果沉淀为 7–10 张 root problem ca
 - Day 5 做什么 red-team？
 - Day 6–7 如何 Go / Hold / Kill？
 
-### 14. 初步判断
+### 15. 初步判断
 
 Go / Hold / Kill，并说明原因。
 
@@ -308,6 +354,8 @@ Go / Hold / Kill，并说明原因。
 
 如果发现质量不达标，无论是：
 
+- 候选大多是 pre-LLM 旧问题，只是换了 LLM / Transformer backbone；
+
 - 找不出 7 个真正通过过滤的候选；
 - 找出来了但没有 2–3 个值得快速试错；
 - 发现自己在用同一个问题树模板套不同方向；
@@ -334,4 +382,4 @@ Go / Hold / Kill，并说明原因。
 用段落解释，不要只堆 bullet。  
 结尾给一个排序表：
 
-| Rank | Root problem | Go/Hold/Kill | 四性总分 | Evidence substrate | 3-month entry | 主要风险 |
+| Rank | Root problem | LLM-era check | Go/Hold/Kill | 四性总分 | Evidence substrate | 3-month entry | 主要风险 |
