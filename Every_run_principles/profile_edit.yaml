@@ -1,0 +1,265 @@
+# profile.yaml
+# Version: 2.1 — Root Problem First + Empirical Sprint
+# 目的:给 Trajectory Designer 提供诚实的自我画像。
+# 注意:这不是简历。不要包装。不要写空泛优点。
+# 应该写"模型需要知道的关于我的事实"。
+
+profile_version: "2.1-root-problem-empirical-sprint"
+last_updated: "2026-06-25"
+
+north_star:
+  sentence: "我需要找到研究根问题，形成研究方向感,而不是迷失在论文的海洋里。"
+  current_decision_problem: >
+    在 3-4 周内形成一组高质量候选根问题，并通过每周读论文 + 复现实验 + failure analysis 的
+    empirical sprint, 判断哪个根问题值得作为博士阶段 3-5 年主线。
+  what_i_am_not_looking_for:
+    - "不是找一个短期 paper idea"
+    - "不是找一个热门 method label"
+    - "不是找一个可以快速刷榜的 benchmark trick"
+    - "不是找一个需要我先搭完整系统 / benchmark / 数据集才能开始的荒地"
+  what_i_am_looking_for:
+    - "一个真实、长期、可验证、可深挖的根问题"
+    - "一个能自然长出 3-5 个递进子问题的问题树"
+    - "一个能支撑 4 篇 paper narrative arc 的博士主线"
+    - "一个对人类 / 公共利益有明确正外部性、但暂时商业化吸引力不足的蓝海方向"
+
+current_stage:
+  phd_year: "First year"
+  years_remaining: "3.5 years"
+  graduation_requirement: "4 篇 paper, 至少 2 篇 A 会，其余 B 会均可"
+  stretch_target: "4 篇 A 会 paper,可能但非必须"
+  primary_deadline: "约 3 个月后博士开题报告，可浮动，但越快越好"
+  immediate_need: >
+    在 3 个月内确定一个能持续产出 4 篇 paper 的研究主线与 narrative arc,
+    并最好同时产出第一篇 entry paper 的 visible progress 作为内审和外审 evidence。
+  short_term_pressure: "高：开题 deadline + 第一篇 entry paper visible progress"
+  long_term_pressure: "中等: 3.5 年内 4 篇 paper, 其中至少 2 篇 A 会"
+
+current_research_context:
+  current_project: "无(刚结束 Academic Radar 项目,目前处于战略方向选择阶段)"
+  advisor_direction: "导师曾做时序信号数据挖掘，现在主要关注 AI + healthcare。导师本人已不做一线科研。"
+  advisor_current_suggestion: "导师建议考虑 AI for Science + 时空序列数据相关课题。此建议应认真考虑，但不能自动成为主线。"
+  lab_ecosystem: >
+    无统一方向。实验室学生方向极度分散, 包括共病预测、自动化产线、AI4Science 灾害预测、
+    推荐算法、HR 管理等。整体等同于无 lab 生态支撑。
+  lab_strength: "无团队层面的方向积累，无可继承的学术资本。"
+  nearby_support:
+    - "隔壁实验室导师以前做计算机视觉，现在做机器人研究，可以讨论 idea。"
+    - "导师有医疗方面 domain expert 网络，但需要我找到足够好的研究方向后才能激活。"
+  collaborators: "无稳定合作者。默认按单兵博士生设计方向。"
+  existing_assets:
+    - "无可直接复用的 dataset"
+    - "无可直接继承的 codebase"
+    - "无 lab 内部已有学术资本"
+  implication: >
+    候选根问题必须单兵可启动，不应依赖 senior 传承、团队 pipeline、长期数据谈判或复杂协作网络。
+
+self_positioning:
+  current: "单兵博士生(solo PhD researcher)"
+  lab_context: "实质独立研究者——advisor 自由度极高 + lab 无主流方向 + 无可继承资源"
+  future_aspiration: "可能成为 system builder,但博士阶段不押注于此"
+  implication: "所有候选方向必须单兵可执行,不依赖团队、多 agent 协同、完整 pipeline 工程化、或 lab 生态支撑"
+  core_strategy: >
+    选择一个真实根问题，通过公开 evaluation substrate、可复现实验、问题树递进和长期 narrative 建立优势。
+  forbidden_strategy: >
+    不通过搭复杂系统、堆多 agent pipeline、造 benchmark、长期谈数据或跟大公司正面拼规模来建立优势。
+
+positioning_on_advantage:
+  framing: >
+    我的本硕 ECE 背景是 floor 不是 ceiling。
+    Round 1 应探索全局最优根问题，不应把所有候选都 anchor 到信号处理周围。
+  desired_candidate_mix:
+    a_signal_processing_leverage: "直接利用信号处理 /计算机视觉/ 图像 / 时序 / 频域 / 传感背景的方向"
+    b_weakly_related_but_important: "与信号处理弱关联，但问题重要、资源可达、单兵可做的方向"
+    c_new_skill_4_to_8_weeks: "需要 4-8 周新学技能，但符合所有其他约束的方向"
+  hard_instruction_to_model:
+    - "7-10 个候选根问题不能 5 个以上都 collapse 到信号处理变体"
+    - "不要因为我有信号处理背景，就忽略更高质量的非信号处理根问题"
+    - "也不要为了跨界而推荐需要长期 domain immersion 的方向"
+  benchmark_policy: >
+    如果某新兴方向已有 public benchmark / dataset / baseline,这通常是可执行蓝海的正信号，不应自动降级为已成熟方向。
+
+capabilities:
+  strongest:
+    - "能独立从 paper 复现到可跑 baseline"
+    - "能在项目接近完成时识别 category error: 区分'工具做完了'和'核心问题被回答了'"
+    - "中等工程能力 + AI 编程辅助下，可完成学术级原型 pipeline"
+    - "曾在 3 周内完成 1599 篇论文的 corpus extraction 系统，证明可快速搭建研究工具"
+    - "不被沉没成本绑架，能主动暂停或归档接近完成的项目并重新选择方向"
+  weaknesses:
+    - "容易把认知问题工程化，花时间设计系统而不是直接面对判断"
+    - "能复现 paper, 但不擅长分析 failure case: empirical sprint 应特别训练这一点"
+    - "数学推导能力非对称——工程数学(线性代数、概率、信号处理数学、傅里叶分析)OK(本硕训练支撑),但 ML 理论数学(measure theory、convex optimization theory、概率不等式)弱。意味着纯 ML 理论方向(learning theory / optimization theory / 理论 RL)不适合;但信号处理 + 应用 ML 方向的数学门槛在我能力范围内。"
+    - "工程上限受限——AI 辅助下能做学术级原型,但无法独立搭建产品级或多组件复杂系统"
+    - "英文学术写作需要 AI 辅助才能达到投稿质量——意味着 rebuttal 和口头交流可能仍有摩擦"
+  concrete_unfair_advantages:
+    - "advisor 给予极高研究自由度(可以做任何能发论文的方向),对比典型博士生被 advisor 方向锁死,这是关键 advantage"
+    - "时间自由度极高——每周稳定 50 小时科研投入,对比典型博士生 20-30 小时,接近 2x 时间优势"
+    - "硬件资源不算单兵博士生标配:RTX 4080 + DGX Spark 128G + V100 一张,必要时可租 A100/H100。中等规模实验可本地完成"
+    - "无 lab 主流方向锁死——可以选择与 lab 完全无关的冷门方向而不被强制拉回"
+    - "本硕信号处理 + 电子工程背景——对涉及时序信号、频域分析、物理信号、图像的方向,domain learning 成本接近零。大多数 CS-only 出身的 AI 博士生不具备这种领域基础。注意:这是 floor 不是 ceiling(参见 positioning_on_advantage)。"
+    - "本硕走过一次 publication 流程，我主要是负责写代码做实验+优化方法,主要idea和投稿都是老师建议的,投稿经验不完整"
+
+
+academic_background:
+  degrees:
+    - level: "Bachelor"
+      field: "Electrical and Computer Engineering"
+      focus: "智能信号处理"
+    - level: "Master"
+      field: "Electrical and Computer Engineering"
+      advisor: "Luping Zhou, The University of Sydney"
+      focus: "医疗图像分割的增量学习"
+  core_coursework:
+    - "Computer Vision"
+    - "Signals and Systems"
+    - "Image Processing"
+    - "Machine Learning"
+    - "Deep Learning"
+  domain_strengths_from_training:
+    - "计算机视觉"
+    - "机器学习 / 深度学习"
+    - "信号预处理、变换、特征提取"
+    - "频域分析、滤波器设计、信号驱动建模"
+    - "经典图像处理 + deep learning 图像方法"
+    - "数字电路设计 + RISC 数字芯片设计"
+  domain_gaps:
+    - "NLP / 大语言模型：只用过，未深度研究"
+    - "强化学习：仅入门"
+    - "组合优化 / 图算法：基础不足"
+    - "纯 ML 理论：不适合做博士主线"
+  prior_research_output:
+    description: >
+      本硕期间发表 1 篇 non-top venue paper: 基于红外图像识别人的年龄和性别，
+      使用 CNN + SVM pipeline。该工作属于 pre-Transformer 方法栈，
+      但提供了 sensing + AI 跨模态识别和完整 publication 流程经验。
+
+available_resources:
+  compute:
+    local:
+      - "RTX 4080 主机"
+      - "NVIDIA DGX Spark 128G"
+      - "V100 一张"
+    rentable:
+      - "A100"
+      - "H100"
+    implication: "中等规模实验可本地完成，但不适合依赖 >8 卡分布式训练的方向。"
+  data_access:
+    default: "以开源数据为主。"
+    special_case: >
+      三甲医院 EHR 数据存在但未清洗: medical agent / clinical decision support 方向已排除，
+      因此该数据不应作为当前主线选择的核心资产。
+  advisor_support: "导师可在时序数据挖掘和 AI + healthcare 方向提供一定讨论，但不能假设有强一线科研指导。"
+  domain_expert_access: "医疗 domain expert 网络可能存在，但只有在方向足够好时才值得激活。"
+  time: "每周约 50 小时科研投入。"
+
+constraints:
+  primary_deadline: "约 3 个月后开题报告"
+  opening_report_must_deliver:
+    - "可信的方向论证"
+    - "4 篇 paper 的 narrative arc"
+    - "第一篇 entry paper 的 visible progress,最好是 preprint / 在投 / 初步实验"
+  first_paper_constraint:
+    rule: "第一篇 entry paper 必须属于博士主线，不接受弱相关 side project。"
+    reason: "时间预算不允许先做孤立 paper 再回头找主线。"
+  graduation_paper_requirement: "4 篇 paper,至少 2 篇 A 会,其余 B 会均可"
+  required_conference_level: "毕业组合 ≥2A + 其余 B 均可"
+  cannot_afford_to_spend_6_months_on:
+    - "data cleaning"
+    - "搭建完整 multi-agent pipeline / 系统级 infrastructure"
+    - "新建 benchmark 或大规模数据收集"
+    - "长期数据谈判或依赖外部机构审批"
+    - "纯 domain knowledge 学习且 6 个月内无 ML 接口——主线方向必须有 3 个月内可触及的 entry,否则内审外审都过不了"
+
+directions_i_want_to_avoid:
+  hard_avoid:
+    - "LLM-for-productivity"
+    - "AI for finance"
+    - "AI for legal automation"
+    - "enterprise agent tooling"
+    - "AI for advertising / marketing / growth"
+    - "personal scientific operating system / research agent"
+    - "medical AI agent / clinical decision support(理论度低、工程度高、竞争激烈,不适合单兵)"
+    - "需要完整 pipeline / 多 agent 系统作为研究 contribution 的方向(多智能体系统对我而言只是辅助工具,不是研究重点)"
+    - "纯 ML 理论方向(learning theory / optimization theory / theoretical RL)——数学推导能力不支持"
+    - "需要长期 lab 生态、senior 传承、advisor 指导的方向——lab 无此条件"
+    - "需要 6+ 月 domain learning 才能产出第一篇的方向——3 个月内必须有 entry visible"
+    - "method-driven 方向(以 agent / RAG / tool use / multi-agent / 自动化 pipeline 等方法本身为主线 contribution 的方向)"
+  allowed_as_tools_not_mainline:
+    - "LLM"
+    - "RAG"
+    - "agent / multi-agent"
+    - "自动化 pipeline"
+    - "research assistant 工具"
+  caution_zones:
+    ai_for_healthcare: >
+      不是完全排除 AI + healthcare，但排除 clinical decision support / medical agent / 主要依赖医院数据清洗或临床工作流落地的方向。
+      只有当问题具有清晰 public benchmark、理论或方法问题明确、单兵可复现时才可考虑。
+    ai_for_science_spatiotemporal: >
+      导师建议方向，值得进入候选池，但不能因导师建议而自动通过。
+      必须满足 root problem clarity、public evaluation substrate、3 个月 entry、4-paper narrative。
+
+skills:
+  willing_to_learn_within_6_months:
+    - "根据 Round 1 候选方向具体决定"
+    - "可以为高质量根问题学习新 domain / 新工具 / 新 evaluation protocol"
+    - "可接受 4-8 周集中补 NLP / LLM / 图算法 / 科学领域背景，只要 3 个月内能启动 entry paper"
+  should_not_depend_on:
+    - "多智能体系统工程作为主贡献"
+    - "大规模分布式训练 / >8 卡级别算力"
+    - "复杂前后端工程 / 产品级 pipeline"
+    - "长期 domain immersion 才能开始的方向"
+
+skills_i_do_not_want_my_phd_to_depend_on:
+  - "多智能体系统工程(只作为辅助工具,不作为研究 contribution)"
+  - "大规模分布式训练 / >8 卡级别算力(单兵硬件不支持)"
+  - "复杂前后端工程 / 完整产品级 pipeline 搭建"
+
+risk_profile:
+  intellectual_risk: "中等偏高——可以接受方向冷门、社区小、被理解成本高,但需要存在 minimal viable 学术认可路径(至少能投出 B 会,长期能撑起 2A)"
+  publication_risk: "中等。长期看 2A + 其余 B 在 3.5 年内宽松;短期看 3 个月内需要至少一个 paper-shaped 产出作为开题前内/外双重 evidence"
+  engineering_risk: "低——单兵战法明确排除需要复杂系统工程的方向"
+  domain_learning_risk: "中等——愿意花 6 个月学一个 domain,但要求该 domain 在 3 个月内已能产出 entry-level 工作,不能是纯前期 immersion"
+
+proposal_evaluation_dual_standard:
+  internal_standard: "我自己必须真的相信这个方向能持续产出 4 篇 paper(≥2A),并且能心安理得地走 3.5 年。这是前置门——通不过这一关,开题无意义。"
+  external_standard: "开题委员会必须能被说服:方向合理、方法论 sound、workload 现实、narrative 清晰、第一篇与第四篇之间的递进在 reviewer 眼里成立。"
+  ordering: "internal 在前,external 在后。但两关同等重要,只有都过才能开题。"
+
+trajectory_designer_success_criteria:
+  - "Trajectory 必须通过自我标准的内审红队(Round 5 Stage 1):3 年后的我会感谢现在的选择吗?哪一篇我心里其实没把握?哪个失败模式我在回避?"
+  - "Trajectory 必须通过模拟委员会的外审红队(Round 5 Stage 2):方法论 sound 吗?workload 合理吗?contribution 清晰吗?narrative 跳跃站得住吗?"
+  - "必须能解释为什么该方向不是红海、不是死海、不是方法驱动的伪主线。"
+  - "必须形成 trajectory_final.md,并包含第一篇 entry paper 的 3 个月计划。"
+
+meta_context:
+  cognitive_descent_path:
+  cognitive_path: >
+    我曾从 idea2paper / research agent 方向转向 Academic Radar，再意识到 corpus mining 不能替代战略选题。
+    当前阶段是 Trajectory Designer：回到根问题选择，并用 empirical sprint 验证候选方向。
+  deprecated_interests: >
+    research agent / medical agent 等旧兴趣不再代表当前博士主线偏好。
+  recent_value_axis_formation: "'对人类有益但暂时商业化吸引力不足 = 蓝海 = 处众人之恶' 这个 value_axis 是最近 4 个月才形成的。在此之前的兴趣表述(尤其是 research agent / medical agent 方向)已不再代表当前方向偏好。"
+  research_orientation: "problem-driven 而非 method-driven。Agent / multi-agent / 自动化 pipeline / LLM 应用框架等都视为方法工具,不作为研究主线 contribution。博士主线应当锚定在一个真实问题(科学问题 / 社会问题 / 公共问题),而 ML/AI 方法是服务于这个问题的工具。"
+  thesis_arc_requirement: "4 篇 paper(≥2A)必须构成 coherent narrative arc(foundational → extension → bridging → impact),不能是 4 篇独立 paper 的拼凑。开题报告需要 defend 这个 narrative。"
+  trajectory_designer_deadline: "Trajectory Designer 的真实 deadline 是 3 个月后的开题报告。5 轮漏斗必须在 3-4 周内跑完,留出后续时间给:(1) 第一篇 entry paper 的快速产出,(2) 文献深读,(3) 开题报告撰写。"
+  first_paper_dual_role: "第一篇 paper 必须在博士主线方向上(同时服务内审 evidence + 外审 productivity proof + 主线 entry)。它不是'与主线弱关联的 side project',而是主线方向的 entry-level work。"
+
+profile_interpretation_rules:
+  do:
+    - "优先输出根问题句，而不是方向标签"
+    - "每个候选都检验 sustainability / depth / accumulativeness / mainline clarity"
+    - "明确 evidence substrate: dataset / benchmark / metric / baseline / repo / shared task"
+    - "明确第一篇 entry paper 在 3 个月内如何启动"
+    - "主动指出哪些方向虽然表面适合但实际应该 Kill"
+    - "保留候选多样性，不要全部 anchor 到信号处理"
+    - "在 empirical sprint 阶段，把 LLM 定位为辅助，而不是替代我的实验判断"
+  do_not:
+    - "不要推荐纯热门方向或默认 LLM agent / RAG / productivity 方向"
+    - "不要用漂亮 narrative 替代可复现 evidence"
+    - "不要建议我先花半年造数据集、benchmark 或完整 pipeline"
+    - "不要把导师建议自动等同于最佳方向"
+    - "不要把我的现有背景当成上限"
+    - "不要把 method 当成 root problem"
+
+
